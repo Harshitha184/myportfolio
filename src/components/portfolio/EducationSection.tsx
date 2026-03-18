@@ -39,9 +39,9 @@ const EducationSection = () => {
                 </div>
                 <h3 className="font-semibold text-foreground">{edu.degree}</h3>
                 <p className="text-sm text-muted-foreground mb-1">{edu.institution}</p>
-                {edu.description && (
+                {edu.cgpa && (
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    {edu.description}
+                    {edu.cgpa}
                   </p>
                 )}
               </div>

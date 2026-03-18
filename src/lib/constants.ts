@@ -101,11 +101,22 @@ export const EXPERIENCE = [
 
 export const EDUCATION = [
   {
-    degree: "B.Tech in Artificial Intelligence and Data Science    CGPA:8.95",
+    degree: "B.Tech in Artificial Intelligence and Data Science ",
     institution: "Shri Vishnu Engineering College for women",
     year: "2023 – 2027",
-    description:
-      "Specializing in AI & Machine Learning. Focused on building scalable web applications and intelligent systems.",
+    cgpa: "8.95",
+  },
+  {
+    degree: "Intermediate (MPC)",
+    institution: "Tirumala Mahila Junior Kalasala",
+    year: "2021 – 2023",
+    marks: "977/1000",
+  },
+  {
+    degree: "Secondary School (10th)",
+    institution: "Tirumala Proactive EM High School",
+    year: "2020 – 2021",
+    cgpa: "10",
   },
 ];
 
