@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   summary:
     "I am a passionate full stack developer with strong interest in AI, Data Science, and building scalable web applications. I enjoy solving real-world problems using technology.",
   email: "harshithavanaparthi184@gmail.com",
-  resumeUrl: "#",
+  resumeUrl: "/_RESUME_.pdf",
   social: {
     github: "https://github.com/Harshitha184/",
     linkedin: "https://linkedin.com/in/naga-harshitha-vanaparthi",
@@ -67,7 +67,7 @@ export const PROJECTS = [
     description:
       "Full stack web application for booking rooms and automating exam seating allocation.",
     techStack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    liveUrl: "#",
+    
     githubUrl: "https://github.com/Harshitha184/Smart_Booking_System",
   },
   
@@ -84,7 +84,7 @@ export const PROJECTS = [
   description:
     "A responsive portfolio website built with React and Tailwind CSS to showcase my projects, skills, and experience with light and dark theme support.",
   techStack: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-  liveUrl: "https://your-portfolio-link.vercel.app",
+  liveUrl: "https://nagaharshitha-portfolio.vercel.app",
   githubUrl: "https://github.com/Harshitha184/portfolio",
 },
 ];
