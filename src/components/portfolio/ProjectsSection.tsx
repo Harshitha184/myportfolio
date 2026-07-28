@@ -45,11 +45,17 @@ const ProjectsSection = () => {
                 ))}
               </div>
               <div className="flex gap-3">
-                <Button size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full" asChild>
-                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                {project.liveUrl ? (
+                  <Button size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full" asChild>
+                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink size={14} className="mr-1" /> Live Demo
+                    </a>
+                  </Button>
+                ) : (
+                  <Button size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full opacity-50 cursor-not-allowed" disabled>
                     <ExternalLink size={14} className="mr-1" /> Live Demo
-                  </a>
-                </Button>
+                  </Button>
+                )}
                 <Button size="sm" variant="outline" className="rounded-full" asChild>
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                     <Github size={14} className="mr-1" /> GitHub

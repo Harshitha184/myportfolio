@@ -41,9 +41,17 @@ const ResumeSection = () => {
                 </div>
                 <h3 className="font-semibold text-foreground">{exp.role}</h3>
                 <p className="text-sm text-muted-foreground mb-1">{exp.company}</p>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  {exp.description}
-                </p>
+                {Array.isArray(exp.description) ? (
+                  <ul className="text-sm text-muted-foreground leading-relaxed list-disc pl-4 space-y-1">
+                    {exp.description.map((point, idx) => (
+                      <li key={idx}>{point}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {exp.description}
+                  </p>
+                )}
               </div>
             </motion.div>
           ))}
