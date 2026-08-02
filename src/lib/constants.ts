@@ -70,20 +70,21 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    title: "ReserveSpot – Smart Booking System",
+    description:
+      "Full stack web application for booking rooms and automating exam seating allocation.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    liveUrl: "https://reservespot-zeta.vercel.app",
+    githubUrl: "https://github.com/Harshitha184/ReserveSpot",
+  },
+  {
     title: "WeRecruit – AI HR Recruitment Assistant",
     description:
       "An AI-powered recruitment assistant that automates resume screening, semantic candidate matching, skill extraction, ATS-style resume scoring, and AI-generated recruiter emails using Large Language Models and Retrieval-Augmented Generation (RAG).",
     techStack: ["Python", "FastAPI", "Streamlit", "LangChain", "Qdrant", "Docker", "LLMs", "RAG", "Prompt Engineering"],
     githubUrl: "https://github.com/Harshitha184/WeRecruit",
   },
-  {
-    title: "Smart Room & Exam Seat Booking System",
-    description:
-      "Full stack web application for booking rooms and automating exam seating allocation.",
-    techStack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    
-    githubUrl: "https://github.com/Harshitha184/Smart_Booking_System",
-  },
+
   {
   title: "HarvestMind – AI-Based Crop Yield Prediction System",
   description:
@@ -118,7 +119,7 @@ export const EXPERIENCE = [
 
 export const CERTIFICATIONS = [
   {
-    title: "Amazon Future Engineer Bootcamp",
+    title: "Amazon Future Engineer Bootcamp 2025",
     issuer: "Java · DSA · AI Foundations",
   },
   {
